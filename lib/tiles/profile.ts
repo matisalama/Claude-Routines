@@ -31,6 +31,9 @@ export const DEFAULT_PROFILE: Profile = {
   name: 'Mati',
   age: 24,
   sex: 'male',
+  heightCm: 170,
+  weightKg: 78,
+  units: 'metric',
 }
 
 /** The profile: localStorage override ('vitality:profile') if valid, else defaults. */
