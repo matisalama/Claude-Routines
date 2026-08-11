@@ -49,31 +49,48 @@ export interface Notice {
 
 export const DEFAULT_GOALS: Goal[] = [
   {
-    id: 'youtube',
-    title: 'Become a famous YouTuber',
-    accent: '#6EE7B7',
-    // Train entered this goal when the mentor noticed workouts drive output —
-    // see DEFAULT_NOTICED. Before: brand 70 / vitals 20 / finance 10.
-    weights: { brand: 62, train: 8, vitals: 20, finance: 10 },
-    progress: 28,
+    id: 'dreambody',
+    title: 'Dream body by summer',
+    accent: '#E8C878',
+    // The MAIN goal. Bulk through November, cut in December, dream body by
+    // January — see lib/tiles/profile.ts for the phase plan + calorie targets.
+    weights: { train: 40, fuel: 30, vitals: 20, peak: 10 },
+    progress: 0,
   },
   {
-    id: 'lean185',
-    title: 'Be 185 lb lean',
+    id: 'ventures',
+    title: 'Build La Hora de las Compras & Zenex into real ventures',
     accent: '#8AB4FF',
-    weights: { train: 40, fuel: 30, vitals: 20, peak: 10 },
-    progress: 61,
+    weights: { finance: 55, brand: 25, vitals: 10, train: 10 },
+    progress: 0,
+  },
+  {
+    id: 'brand',
+    title: 'Build my personal brand',
+    accent: '#6EE7B7',
+    weights: { brand: 70, finance: 15, vitals: 15 },
+    progress: 0,
+  },
+  {
+    id: 'impact',
+    title: 'Help people and build solutions that reach millions',
+    accent: '#C9A6FF',
+    weights: { brand: 40, finance: 30, vitals: 15, train: 15 },
+    progress: 0,
   },
 ]
 
-/** The overseer's synthesis of EVERY goal, polished into one sentence by the
- *  mentor (Claude Code). Switching it on = top priority — the board goes gold. */
+/** The overseer's synthesis, polished from Mati's MAIN goal ("dream body by
+ *  summer") into one sharp sentence. Switching it on = top priority — the
+ *  board goes gold. Weighted mostly to the body (the goal itself), with a
+ *  slice held for brand/finance since the ventures + brand still feed the
+ *  same engine — the body that runs them. */
 export const OVERALL_GOAL: Goal = {
   id: 'overall',
-  title: 'A jacked, famous YouTuber',
+  title: 'A lean, strong body by summer — built in phases, bulk to cut to peak',
   accent: '#E8C878',
-  weights: { brand: 30, train: 25, vitals: 20, fuel: 13, finance: 7, peak: 5 },
-  progress: 34,
+  weights: { train: 35, fuel: 25, vitals: 15, peak: 10, finance: 8, brand: 7 },
+  progress: 0,
 }
 
 /** Overall first, then the individual goals. */
@@ -89,18 +106,14 @@ export function activeGoal(): Goal | undefined {
 
 export const DEFAULT_NOTICED: Notice[] = [
   {
-    id: 'n-workouts-drive',
-    when: 'this morning',
-    text: 'When you skip the gym, you drink less water — and your analytics take a deep dive the same day. Workouts might be the key to your drive, not just your body. I moved Train into the YouTuber goal.',
+    id: 'n-setup',
+    when: 'today',
+    text: 'Set the equation for the first time. **Dream body by summer** is the gold goal — Train and Fuel carry it, with Vitals and Peak backing it up. Ventures, Brand, and Impact still count, weighted underneath. No data yet to notice a pattern in — that comes once you start logging. I\'ll watch for it.',
     points: [
-      'When you skip the gym, you drink **less water** the same day',
-      'No-workout days: your **analytics take a deep dive**',
-      '**Workouts might be the key to your drive** — not just your body',
-      'So I moved **Train into the YouTuber goal**',
-    ],
-    deltas: [
-      { tile: 'train', from: 0, to: 8 },
-      { tile: 'brand', from: 70, to: 62 },
+      '**Dream body by summer** set as the gold overall goal',
+      'Train + Fuel carry the most weight — Vitals and Peak back them up',
+      '**Ventures, Brand, and Impact** stay live underneath, not forgotten',
+      'No data logged yet — I\'ll retune the weights once there\'s a pattern to see',
     ],
   },
 ]
@@ -123,50 +136,68 @@ export interface TileIdea {
 export const DEFAULT_IDEAS: Record<string, TileIdea[]> = {
   overall: [
     {
-      word: 'Pipeline',
-      title: 'Content pipeline',
-      tracks: 'videos in flight → published, per week',
-      why: 'Your output IS the goal — but nothing tracks the machine that makes it. Brand tracks the channel; this tracks the work.',
+      word: 'Weight',
+      title: 'Bodyweight trend',
+      tracks: 'weekly weigh-ins across bulk → cut → dream body',
+      why: 'Three phases, three targets — nothing currently shows you the line from 78kg now to summer. This would.',
       estWeight: 10,
     },
     {
       word: 'Sleep',
       title: 'Sleep consistency',
       tracks: 'bedtime variance, night by night',
-      why: 'Your recovery swings track your analytics dips. Vitals sees the score — this would see the habit behind it.',
+      why: 'Recovery drives both the gym and the businesses. Vitals sees the score; this would see the habit behind it.',
       estWeight: 6,
     },
   ],
-  youtube: [
+  dreambody: [
+    {
+      word: 'Macros',
+      title: 'Macro tracking',
+      tracks: 'protein/carbs/fat vs your phase target',
+      why: 'Fuel currently only tracks water. Your bulk/cut plan lives in your profile — a macro tile would hold you to it day by day.',
+      estWeight: 15,
+    },
+    {
+      word: 'Lifts',
+      title: 'Lift progression',
+      tracks: 'top set weight per lift, week over week',
+      why: 'Train shows you went — this would show you got stronger, which is the actual signal for "dream body."',
+      estWeight: 10,
+    },
+  ],
+  ventures: [
+    {
+      word: 'Runway',
+      title: 'Runway / revenue tracker',
+      tracks: 'La Hora de las Compras + Zenex revenue and burn, side by side',
+      why: 'Two businesses, one Finance tile — right now it can\'t tell them apart. This splits the signal.',
+      estWeight: 15,
+    },
+    {
+      word: 'Focus',
+      title: 'Deep-work hours',
+      tracks: 'hours spent building, per venture, per week',
+      why: 'Ventures move on hours invested before they move on revenue. This is the leading indicator.',
+      estWeight: 10,
+    },
+  ],
+  brand: [
     {
       word: 'Pipeline',
       title: 'Content pipeline',
       tracks: 'ideas → filmed → edited → published',
-      why: 'You track the channel (Brand) but not the machine that feeds it. Publishing cadence is the single biggest lever here.',
+      why: 'Brand tracks the channel; this tracks the machine that feeds it. Publishing cadence is the single biggest lever here.',
       estWeight: 12,
     },
-    {
-      word: 'Caffeine',
-      title: 'Caffeine timing',
-      tracks: 'when + how much, against publish days',
-      why: 'The data hints more caffeine on publish days — fuel or crutch? One small tile answers it.',
-      estWeight: 5,
-    },
   ],
-  lean185: [
+  impact: [
     {
-      word: 'Water',
-      title: 'Water',
-      tracks: 'daily intake vs target',
-      why: 'The noticed pattern: skip the gym → drink less. No tile tracks water yet — it is the cheapest input you are missing.',
-      estWeight: 8,
-    },
-    {
-      word: 'Steps',
-      title: 'Steps / NEAT',
-      tracks: 'daily movement outside the gym',
-      why: 'At 185-lean, the deficit is won between workouts. Train sees sessions; nothing sees the other 23 hours.',
-      estWeight: 7,
+      word: 'Reach',
+      title: 'People reached',
+      tracks: 'users helped / community touched, cumulative',
+      why: '"Millions of people" is the goal — nothing counts toward it yet. Even a rough number beats no number.',
+      estWeight: 12,
     },
   ],
 }
