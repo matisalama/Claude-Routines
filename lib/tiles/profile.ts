@@ -24,6 +24,18 @@ export interface Profile {
   sex?: 'male' | 'female'
   /** How to TALK to them about it — storage stays metric. */
   units?: 'metric' | 'imperial'
+  /** Current phase of a multi-phase body goal — drives which calorie/protein
+   *  target below is "active". Set by the mentor from a conversation, e.g.
+   *  "bulk until November, cut in December, dream body in January". */
+  goalPhase?: 'bulk' | 'cut' | 'lean-bulk' | 'maintain'
+  /** kcal/day target for the CURRENT phase (Mifflin-St Jeor maintenance,
+   *  then a phase-appropriate surplus/deficit). Recompute if weight/phase change. */
+  calorieTargetKcal?: number
+  /** protein target in grams for the current phase (~2-2.2 g/kg, higher in a cut). */
+  proteinTargetG?: number
+  /** Free-text plan so future phases aren't lost — the mentor (or a rebuilt
+   *  Fuel tile) reads this to know what's next and when to switch targets. */
+  phasePlan?: string
 }
 
 /** Blank until the mentor asks. Fallbacks live at the call sites. */
@@ -34,6 +46,11 @@ export const DEFAULT_PROFILE: Profile = {
   heightCm: 170,
   weightKg: 78,
   units: 'metric',
+  goalPhase: 'bulk',
+  calorieTargetKcal: 3030,
+  proteinTargetG: 155,
+  phasePlan:
+    'Bulk now through November (~3030 kcal, ~155g protein) → cut in December (~2180 kcal, ~170g protein) → dream body by January (reassess near maintenance, ~2680 kcal). Maintenance estimate: 2680 kcal (Mifflin-St Jeor, 170cm/78kg/24/male).',
 }
 
 /** The profile: localStorage override ('vitality:profile') if valid, else defaults. */
