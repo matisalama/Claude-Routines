@@ -36,6 +36,9 @@ export interface Profile {
   /** Free-text plan so future phases aren't lost — the mentor (or a rebuilt
    *  Fuel tile) reads this to know what's next and when to switch targets. */
   phasePlan?: string
+  /** Standing injury/medical notes the mentor should weigh before suggesting
+   *  any Train programming — never guessed, only written when they tell you. */
+  injuryNotes?: string
 }
 
 /** Blank until the mentor asks. Fallbacks live at the call sites. */
@@ -51,6 +54,8 @@ export const DEFAULT_PROFILE: Profile = {
   proteinTargetG: 155,
   phasePlan:
     'Bulk now through November (~3030 kcal, ~155g protein) → cut in December (~2180 kcal, ~170g protein) → dream body by January (reassess near maintenance, ~2680 kcal). Maintenance estimate: 2680 kcal (Mifflin-St Jeor, 170cm/78kg/24/male).',
+  injuryNotes:
+    'Right/left knee — ligament + meniscus tear, March 15 2025. 209 logged sessions since Sept 2024 show leg-set share already dropped from 13.3% (pre-injury) to 10.7% (post) — training scaled back appropriately, not stopped. Any future leg programming should respect this: knee-friendly loading, watch pain not just RPE.',
 }
 
 /** The profile: localStorage override ('vitality:profile') if valid, else defaults. */

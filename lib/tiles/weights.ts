@@ -116,6 +116,17 @@ export const DEFAULT_NOTICED: Notice[] = [
       'No data logged yet — I\'ll retune the weights once there\'s a pattern to see',
     ],
   },
+  {
+    id: 'n-training-log-import',
+    when: 'today',
+    text: 'Read your real training log: **209 sessions since September 2024**. Since your knee injury (**March 15, 2025**), leg-set share went from **13.3% of volume to 10.7%** — you scaled back, you didn\'t stop, which is the right call. One thing I won\'t guess at: **you dropped to 2 sessions/month in April–May 2026**, then came back to 16 in July. I don\'t know why — worth telling me if you want it on record.',
+    points: [
+      '**209 logged sessions**, Sept 2024 → Aug 2026 — you actually track your training',
+      'Leg volume **13.3% → 10.7%** after the knee injury — scaled back, not abandoned',
+      '**April–May 2026: only 2 sessions/month** — a real dip, then a comeback to 16 in July',
+      'Knee injury logged in your profile so Train programming respects it going forward',
+    ],
+  },
 ]
 
 /** A blueprint for a tile they SHOULD have — a gap the mentor found between
