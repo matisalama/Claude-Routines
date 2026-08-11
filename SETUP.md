@@ -3,7 +3,7 @@
 - [x] 1. The board, scaffolded + installed (`npm install` done)          REQUIRED
        → your dashboard's code, ready to run — `npm run dev` on your own
          machine (or skip straight to live via Vercel below) to see it
-- [ ] 2. GitHub — code is already pushed to your repo via this session   DONE
+- [x] 2. GitHub — code is already pushed to your repo via this session   DONE
        → your code is saved and safe; the door to going live
 - [ ] 3. Vercel — import the repo, click Deploy                         RECOMMENDED
        → your dashboard LIVE at your own URL; every push auto-updates it
