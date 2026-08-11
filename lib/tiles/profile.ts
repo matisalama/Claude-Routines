@@ -30,6 +30,7 @@ export interface Profile {
 export const DEFAULT_PROFILE: Profile = {
   name: 'Mati',
   age: 24,
+  sex: 'male',
 }
 
 /** The profile: localStorage override ('vitality:profile') if valid, else defaults. */
