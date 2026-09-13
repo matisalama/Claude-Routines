@@ -117,6 +117,17 @@ export const DEFAULT_NOTICED: Notice[] = [
     ],
   },
   {
+    id: 'n-nightly-sep13-2026',
+    when: 'Sep 13 2026, night',
+    text: 'Nightly check-in. **Bulk phase: week 7** — you\'re in it. September is usually when the gym gets loud again after summer, which is good cover to move heavy and stay consistent. **No new data in the inbox tonight** so no retuning yet — if you logged a session today, drop it in ~/vitality-inbox/ and I\'ll file it. One thing worth remembering: the **April–May dip** last year happened around this same stretch. Nothing to do about it now — just worth watching.',
+    points: [
+      '**Bulk phase active** — ~3030 kcal, 155g protein target, through November',
+      '**No inbox data tonight** — nothing to retune; same weights hold',
+      'September historically = comeback energy in the logs — use it',
+      '**Knee note** still live in your profile — any leg work, respect the load',
+    ],
+  },
+  {
     id: 'n-training-log-import',
     when: 'today',
     text: 'Read your real training log: **209 sessions since September 2024**. Since your knee injury (**March 15, 2025**), leg-set share went from **13.3% of volume to 10.7%** — you scaled back, you didn\'t stop, which is the right call. One thing I won\'t guess at: **you dropped to 2 sessions/month in April–May 2026**, then came back to 16 in July. I don\'t know why — worth telling me if you want it on record.',
