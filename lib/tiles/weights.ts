@@ -127,6 +127,17 @@ export const DEFAULT_NOTICED: Notice[] = [
       'Knee injury logged in your profile so Train programming respects it going forward',
     ],
   },
+  {
+    id: 'n-bulk-midpoint-sep-2026',
+    when: 'Sep 23 2026',
+    text: '**9 weeks left in the bulk.** November ends, December starts the cut — the window is narrowing. This is the stretch where the work either compounds or drifts. **3030 kcal and 155g protein** are the targets; if you\'ve been hitting them, the bulk has been working. If you\'ve been under, the next 9 weeks are the correction window — not December.',
+    points: [
+      '**Bulk ends ~Nov 30** — 9 weeks to make it count before the December cut',
+      'Current targets: **3030 kcal / 155g protein** — are you actually hitting them?',
+      'If training volume stayed at ~16 sessions/month (July level), you\'re on track',
+      'The cut will be cleaner if the bulk was real — don\'t leave weight on the table now',
+    ],
+  },
 ]
 
 /** A blueprint for a tile they SHOULD have — a gap the mentor found between
