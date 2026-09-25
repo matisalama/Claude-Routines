@@ -1,0 +1,474 @@
+{
+ "semana": "2026-W39",
+ "generado": "2026-09-25T11:51:00-03:00",
+ "corte": "2026-09-25 11:51 America/Asuncion",
+ "periodo": {
+  "inicio": "2026-09-21",
+  "fin": "2026-09-25",
+  "bloque_comparable": "lunes-jueves",
+  "viernes_parcial": {
+   "hasta": "11:51",
+   "pedidos": 3,
+   "facturacion": 747000,
+   "mensajes": 336,
+   "chats_pauta": 101,
+   "gasto_meta": 403930
+  }
+ },
+ "definiciones": "ventas=pedidos generados; facturacion=monto_pedidos; unidades=cantidades sin anuladas; ticket=facturacion/pedidos; mensajes=recibidos WhatsApp; conversaciones=atendidas por dia; chats_pauta=chats CTWA (NAS); gasto=Meta cuenta LHC",
+ "periodos": {
+  "A": {
+   "fechas": "2026-09-21/2026-09-24",
+   "pedidos": 55,
+   "facturacion": 24988000,
+   "entregadas": 37,
+   "monto_entregadas": 16660000,
+   "anuladas": 5,
+   "unidades": 61,
+   "ticket": 454327,
+   "mensajes": 3697,
+   "conversaciones": 2017,
+   "chats_pauta": 1296,
+   "gasto_meta": 4808363,
+   "impresiones": 282399,
+   "alcance": 140561,
+   "frecuencia": 2.01,
+   "clics": 9179,
+   "ctr": 3.25,
+   "cpm": 17027,
+   "costo_por_chat": 3710,
+   "gasto_por_venta": 87425,
+   "fact_por_gs_pauta": 5.2,
+   "chats_a_ventas_pct": 4.2,
+   "pedidos_dia": [
+    18,
+    13,
+    12,
+    12
+   ],
+   "facturacion_dia": [
+    8564000,
+    6539000,
+    5321000,
+    4564000
+   ],
+   "mensajes_dia": [
+    999,
+    883,
+    967,
+    848
+   ],
+   "gasto_dia": [
+    1106604,
+    1457670,
+    1201521,
+    1042568
+   ],
+   "tiempo_respuesta_seg_dia": [
+    640,
+    795,
+    892,
+    936
+   ]
+  },
+  "B": {
+   "fechas": "2026-09-14/2026-09-17",
+   "pedidos": 66,
+   "facturacion": 46453000,
+   "entregadas": 53,
+   "monto_entregadas": 35921000,
+   "anuladas": 4,
+   "unidades": 89,
+   "ticket": 703833,
+   "mensajes": 4026,
+   "conversaciones": 2062,
+   "chats_pauta": 1212,
+   "gasto_meta": 5230751,
+   "impresiones": 309186,
+   "alcance": 158649,
+   "frecuencia": 1.95,
+   "clics": 9891,
+   "ctr": 3.2,
+   "cpm": 16918,
+   "costo_por_chat": 4316,
+   "gasto_por_venta": 79254,
+   "fact_por_gs_pauta": 8.9,
+   "chats_a_ventas_pct": 5.4,
+   "pedidos_dia": [
+    19,
+    13,
+    19,
+    15
+   ],
+   "facturacion_dia": [
+    12197000,
+    11955000,
+    15630000,
+    6671000
+   ],
+   "mensajes_dia": [
+    1125,
+    915,
+    1108,
+    878
+   ]
+  },
+  "C": {
+   "fechas": "2025-09-22/2025-09-25",
+   "pedidos": 106,
+   "facturacion": 59491500,
+   "entregadas": 84,
+   "monto_entregadas": 48772500,
+   "anuladas": 7,
+   "unidades": 133,
+   "ticket": 561240,
+   "mensajes": 4220,
+   "conversaciones": 1972,
+   "chats_pauta": 698,
+   "gasto_meta": 2600205,
+   "impresiones": 269779,
+   "alcance": 145249,
+   "frecuencia": 1.86,
+   "clics": 8632,
+   "ctr": 3.2,
+   "cpm": 9638,
+   "costo_por_chat": 3725,
+   "gasto_por_venta": 24530,
+   "fact_por_gs_pauta": 22.9,
+   "chats_a_ventas_pct": 15.2,
+   "pedidos_dia": [
+    35,
+    21,
+    27,
+    23
+   ],
+   "facturacion_dia": [
+    22450000,
+    9747500,
+    13509000,
+    13785000
+   ],
+   "mensajes_dia": [
+    1152,
+    926,
+    819,
+    1323
+   ]
+  },
+  "D": {
+   "fechas": "2024-09-23/2024-09-26",
+   "pedidos": 150,
+   "facturacion": 81126628,
+   "entregadas": 131,
+   "monto_entregadas": 70252628,
+   "anuladas": 2,
+   "unidades": 197,
+   "ticket": 540844,
+   "mensajes": 7716,
+   "conversaciones": 4685,
+   "chats_pauta": 1620,
+   "gasto_meta": 1660350,
+   "impresiones": 149896,
+   "alcance": 87651,
+   "frecuencia": 1.71,
+   "clics": 7026,
+   "ctr": 4.69,
+   "cpm": 11077,
+   "costo_por_chat": 1025,
+   "gasto_por_venta": 11069,
+   "fact_por_gs_pauta": 48.9,
+   "chats_a_ventas_pct": 9.3,
+   "pedidos_dia": [
+    35,
+    40,
+    38,
+    37
+   ],
+   "facturacion_dia": [
+    16378101,
+    23041427,
+    19440800,
+    22266300
+   ],
+   "mensajes_dia": [
+    1794,
+    1885,
+    1893,
+    2144
+   ]
+  }
+ },
+ "top_productos_A": [
+  {
+   "producto": "Ejercitador Pasivo Cardio Fit Pro",
+   "monto": 2980000,
+   "unidades": 2,
+   "chats": 2
+  },
+  {
+   "producto": "Amplificador de Sonido New Style",
+   "monto": 2200000,
+   "unidades": 4,
+   "chats": 29
+  },
+  {
+   "producto": "STONELINE SET",
+   "monto": 2079000,
+   "unidades": 3,
+   "chats": 76
+  },
+  {
+   "producto": "Axon Hearing Aid",
+   "monto": 1796000,
+   "unidades": 4,
+   "chats": 63
+  },
+  {
+   "producto": "Maxi Climber",
+   "monto": 1780000,
+   "unidades": 2,
+   "chats": 4
+  },
+  {
+   "producto": "AB Tomic",
+   "monto": 1770000,
+   "unidades": 3,
+   "chats": 40
+  },
+  {
+   "producto": "Sankom Bra - Con Encaje",
+   "monto": 1000000,
+   "unidades": 5,
+   "chats": 57
+  },
+  {
+   "producto": "Dr Ho Circulation Promoter",
+   "monto": 990000,
+   "unidades": 1,
+   "chats": 34
+  },
+  {
+   "producto": "Sistema Vibratorio GymForm Leg Action",
+   "monto": 890000,
+   "unidades": 1,
+   "chats": 62
+  },
+  {
+   "producto": "Harry Blackstone Grill",
+   "monto": 590000,
+   "unidades": 2,
+   "chats": 38
+  }
+ ],
+ "top_chats_A": [
+  {
+   "producto": "Sankom Bra - Sin Encaje",
+   "chats": 87,
+   "unidades": 2,
+   "stock": "XL/XXL beige -5"
+  },
+  {
+   "producto": "STONELINE SET",
+   "chats": 76,
+   "unidades": 3
+  },
+  {
+   "producto": "Tornado - By Brava Cucina",
+   "chats": 64,
+   "unidades": 1
+  },
+  {
+   "producto": "Velform Cross Compression Shaper",
+   "chats": 64,
+   "unidades": 0
+  },
+  {
+   "producto": "Axon Hearing Aid",
+   "chats": 63,
+   "unidades": 4
+  },
+  {
+   "producto": "Placas de Yeso - Plaquia",
+   "chats": 62,
+   "unidades": 2,
+   "stock": "Jade/Onice 0"
+  },
+  {
+   "producto": "Sistema Vibratorio GymForm Leg Action",
+   "chats": 62,
+   "unidades": 1
+  },
+  {
+   "producto": "Power Fit SMART",
+   "chats": 59,
+   "unidades": 0,
+   "stock": "0"
+  },
+  {
+   "producto": "Sankom Bra - Con Encaje",
+   "chats": 57,
+   "unidades": 5
+  },
+  {
+   "producto": "AB Tomic",
+   "chats": 40,
+   "unidades": 3
+  }
+ ],
+ "productos_apagados": [
+  {
+   "producto": "Backlounge",
+   "B_unidades": 12,
+   "B_monto": 10322000,
+   "A_unidades": 0
+  },
+  {
+   "producto": "Stand Up Seat",
+   "B_monto": 4969000,
+   "A_unidades": 0
+  },
+  {
+   "producto": "Depiladora Láser Bye Bye",
+   "B_unidades": 2,
+   "B_monto": 2380000,
+   "A_unidades": 0
+  }
+ ],
+ "campanas_top_A": [
+  {
+   "nombre": "TEST VIDEO — Ranking de creativos LHC",
+   "gasto": 941664,
+   "conversaciones": 255,
+   "costo_por_conv": 3693
+  },
+  {
+   "nombre": "Post Ivanna Collection",
+   "gasto": 436088,
+   "conversaciones": 100,
+   "costo_por_conv": 4361
+  },
+  {
+   "nombre": "Post Power Fit (¿Querés resultados reales…)",
+   "gasto": 351021,
+   "conversaciones": 48,
+   "costo_por_conv": 7313
+  },
+  {
+   "nombre": "TEST VIDEO 2 — Productos sin pauta",
+   "gasto": 344110,
+   "conversaciones": 91,
+   "costo_por_conv": 3781
+  },
+  {
+   "nombre": "Post Sankom Bra",
+   "gasto": 339890,
+   "conversaciones": 125,
+   "costo_por_conv": 2719
+  },
+  {
+   "nombre": "Promociones WhatsApp agosto (7)",
+   "gasto": 803421,
+   "conversaciones": 210,
+   "costo_por_conv": 3826
+  }
+ ],
+ "conversaciones_estado_semana": {
+  "Bot": 3119,
+  "Finalizada": 2477,
+  "Sin Resolución": 1371,
+  "En Proceso": 1187,
+  "Pendiente": 259
+ },
+ "resoluciones_semana": {
+  "Agendado": 10,
+  "No Compró": 6,
+  "Pedido": 5,
+  "Compró": 3,
+  "Crédito": 1
+ },
+ "vendedores_semana": {
+  "Johanna Alarcon": 24,
+  "Cynthia Calia": 16,
+  "Silvia Rolon": 14,
+  "Ventas Bot": 4
+ },
+ "voc": {
+  "muestra": 17,
+  "silencio_tras_precio": 9,
+  "apertura_sin_producto": 3,
+  "preguntas": [
+   "estudio médico (Axon)",
+   "potencia en watts (George Foreman, dato faltante en bot)",
+   "ubicación del local x2",
+   "presupuesto por m2 (Plaquia)"
+  ],
+  "objeciones_precio": 0
+ },
+ "contenido": {
+  "produccion_semana": "N/D",
+  "snapshot": "23 piezas al 24/09; reel FB Sankom Bra = 68% de interacciones (1122); mayor alcance FB Sankom Florida 4806"
+ },
+ "mes": {
+  "mes": "2026-09",
+  "pedidos_al_24": 342,
+  "facturacion_al_24": 208891300,
+  "proyeccion_pedidos": 427,
+  "proyeccion_facturacion": 261000000,
+  "ref_2025_pedidos": 605,
+  "ref_2025_facturacion": 302881300,
+  "ref_ago_2026_pedidos": 540,
+  "ref_ago_2026_facturacion": 276218000,
+  "meta": null
+ },
+ "senales": [
+  "Mix de ticket alto explica 82% de la caída (Backlounge, Stand Up Seat, Depiladora)",
+  "Costo por chat -14% pero gasto por venta +10%",
+  "Tiempo de respuesta 10,7 -> 15,6 min lunes a jueves",
+  "Héroes de 2024/2025 (Power Fit, Velform, Sankom s/enc) hoy sin stock o sin conversión",
+  "Amplificador New Style y Cardio Fit Pro venden casi sin chats"
+ ],
+ "anomalias": [
+  "🔴 demanda sobre stock 0: Power Fit SMART, Plaquia Jade/Onice, Sankom s/enc XL/XXL",
+  "🟡 jueves 24 día más bajo del mes (Gs 4,56M)",
+  "🟡 anulaciones 9%",
+  "🟢 06/09 venta atípica Gs 21,9M en 5 pedidos"
+ ],
+ "aprendizajes": [
+  "La facturación depende del mix de ticket alto más que del número de pedidos",
+  "Bajar el costo por chat no produjo más ventas: el cuello está después del precio",
+  "Se pauta sobre productos sin stock; nada frena la campaña",
+  "Los tests de video multi-producto generan aperturas genéricas que el bot no convierte",
+  "Vs 2024 la misma demanda cuesta 3,6x: la mejora viene de conversión, stock y ticket"
+ ],
+ "decisiones": [
+  {
+   "tipo": "URGENTE",
+   "que": "Pausar/redirigir pauta Power Fit SMART hasta reponer",
+   "plazo": "2026-09-25"
+  },
+  {
+   "tipo": "URGENTE",
+   "que": "Reponer Sankom Bra XL/XXL y reactivar Backlounge",
+   "plazo": "2026-09-28"
+  },
+  {
+   "tipo": "IMPORTANTE",
+   "que": "Seguimiento humano 24h tras precio; medir % segunda respuesta",
+   "plazo": "semana 2026-09-28"
+  },
+  {
+   "tipo": "EXPERIMENTO",
+   "que": "Campañas propias Amplificador New Style y Cardio Fit Pro"
+  },
+  {
+   "tipo": "PENDIENTE",
+   "que": "Conteo de contenido, meta mensual, resoluciones, specs al bot"
+  }
+ ],
+ "fuentes": {
+  "NAS": "ok",
+  "Meta": "ok",
+  "IG_organico": "no vinculado",
+  "goals": "no definido"
+ }
+}
