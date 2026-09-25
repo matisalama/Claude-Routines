@@ -51,6 +51,7 @@ next-env.d.ts
 !.claude/commands/vitality.md
 !.claude/commands/detonate.md
 !.claude/commands/sweep.md
+!.claude/commands/wbr.md
 !.claude/settings.json
 
 # personal MCP connection (contains a per-user vitm_ token — never commit)
