@@ -62,16 +62,22 @@ Calculá las fechas con `TZ=America/Asuncion date` antes de pedir datos.
   cobertura es parcial (pocas conversaciones se resuelven): decirlo.
 - Estados de conversación → `conversaciones_por_estado` (Bot, Finalizada,
   Sin Resolución, En Proceso, Pendiente).
-- Voice of Customer → muestra de 12–15 chats: `nuevas_conversaciones` de la
-  semana → `historial_mensajes` por teléfono (limite 30). Sumar
+- Voice of Customer → muestra de 12–15 chats repartidos entre los días de la
+  semana (no solo la última noche): `nuevas_conversaciones` (varios días,
+  limite 5–6 cada uno) → `historial_mensajes` por teléfono SOLO para obtener el
+  `conversacion.id` (el contenido viene vacío) → `obtener_historial_conversacion`
+  con ese id (hours 120, limit 20) que sí devuelve los textos. Contar cuántos
+  chats se cortan tras el precio, qué preguntan, qué objetan. Sumar
   `interesados_en_producto` (solo_sin_compra=true) para los 3 productos con más
-  chats. Nunca citar nombres ni teléfonos en el reporte: solo patrones y frases
-  genéricas.
+  chats (puede venir vacío). Nunca citar nombres ni teléfonos en el reporte:
+  solo patrones y frases genéricas.
 - Equipo → `ventas_por_vendedor`, `rendimiento_operadores`, `tiempo_respuesta`.
 - Mes/tendencia → `ventas_por_mes` (año actual y anterior), `resumen_dashboard`
   (ventas_mes, ticket_promedio_mes, ventas_12_meses).
 - `resumen_pautas` / `reporte_pautas` devuelven gasto 0 (no sincronizan gasto):
   NO usarlos para gasto. Su "leads" = chats desde anuncios.
+- `reporte_etiquetas` y `reporte_tickets` suelen venir vacíos: omitir sin
+  comentar.
 - `reporte_publicaciones` no filtra por fecha (es una foto de las piezas más
   recientes con alcance/engagement/guardados/reproducciones): sirve para ranking
   de tracción, no para contar piezas publicadas en la semana.
@@ -216,7 +222,13 @@ PAUTA = gasto de la cuenta Meta LHC en el período · COSTO POR CONVERSACIÓN =
 gasto / conversaciones iniciadas (Meta) · VIDEOS/PUBLICACIONES = piezas
 publicadas en el período (N/D mientras no haya fuente).
 
-## 9. Entrega
+## 9. Plantilla
+
+`reports/lhc-wbr/2026-W39-preview.html` es la referencia de diseño y de tono
+(estructura, tarjetas, scorecard, matriz, embudo, Decision Center, resúmenes).
+Reusá su CSS y sus gráficos; cambiá datos y lecturas, no el estilo.
+
+## 10. Entrega
 
 1. Publicar el HTML como Artifact (si el tool está disponible) y dejar el link.
 2. Pegar en el chat el resumen para el equipo y el resumen para la mesa
