@@ -1,0 +1,511 @@
+{
+ "semana": "2026-W40",
+ "generado": "2026-10-02T11:51:00-03:00",
+ "corte": "2026-10-02 11:51 America/Asuncion",
+ "periodo": {
+  "inicio": "2026-09-28",
+  "fin": "2026-10-02",
+  "bloque_comparable": "lunes-jueves",
+  "viernes_parcial": {
+   "hasta": "11:51",
+   "pedidos": 10,
+   "facturacion": 5421000,
+   "mensajes": 857,
+   "chats_pauta_aprox": 221,
+   "gasto_meta": 963038
+  }
+ },
+ "definiciones": "ventas=pedidos generados; facturacion=monto_pedidos; unidades=cantidades sin anuladas; ticket=facturacion/pedidos; mensajes=recibidos WhatsApp; conversaciones=atendidas por dia; chats_pauta=chats CTWA (NAS); gasto=Meta cuenta LHC; tiempo_respuesta=segundos promedio hasta 24h",
+ "periodos": {
+  "A": {
+   "fechas": "2026-09-28/2026-10-01",
+   "pedidos": 63,
+   "facturacion": 28663500,
+   "entregadas": 36,
+   "monto_entregadas": 15402000,
+   "anuladas": 3,
+   "unidades": 74,
+   "ticket": 454976,
+   "mensajes": 3540,
+   "conversaciones": 2073,
+   "chats_pauta": 1030,
+   "chats_pauta_nota": "total 1251 menos viernes ~221 (lista truncada en fuente)",
+   "gasto_meta": 3386900,
+   "impresiones": 221453,
+   "alcance": 116663,
+   "frecuencia": 1.9,
+   "clics": 7296,
+   "ctr": 3.29,
+   "cpm": 15294,
+   "costo_por_chat": 3288,
+   "gasto_por_venta": 53760,
+   "fact_por_gs_pauta": 8.5,
+   "chats_a_ventas_pct": 6.1,
+   "tiempo_respuesta_seg_prom": 484,
+   "pedidos_dia": [
+    11,
+    14,
+    18,
+    20
+   ],
+   "facturacion_dia": [
+    6635000,
+    4664000,
+    9859000,
+    7505500
+   ],
+   "mensajes_dia": [
+    922,
+    857,
+    1057,
+    704
+   ],
+   "gasto_dia": [
+    1139248,
+    680223,
+    1084904,
+    482525
+   ],
+   "tiempo_respuesta_seg_dia": [
+    689,
+    109,
+    333,
+    803
+   ]
+  },
+  "B": {
+   "fechas": "2026-09-21/2026-09-24",
+   "pedidos": 55,
+   "facturacion": 24988000,
+   "entregadas": 37,
+   "monto_entregadas": 16660000,
+   "anuladas": 5,
+   "unidades": 61,
+   "ticket": 454327,
+   "mensajes": 3697,
+   "conversaciones": 2017,
+   "chats_pauta": 1296,
+   "gasto_meta": 4808363,
+   "impresiones": 282399,
+   "alcance": 140561,
+   "frecuencia": 2.01,
+   "clics": 9179,
+   "ctr": 3.25,
+   "cpm": 17027,
+   "costo_por_chat": 3710,
+   "gasto_por_venta": 87425,
+   "fact_por_gs_pauta": 5.2,
+   "chats_a_ventas_pct": 4.2,
+   "tiempo_respuesta_seg_prom": 816
+  },
+  "C": {
+   "fechas": "2025-09-29/2025-10-02",
+   "pedidos": 92,
+   "facturacion": 40781600,
+   "entregadas": 73,
+   "monto_entregadas": 30294100,
+   "anuladas": 6,
+   "unidades": 124,
+   "ticket": 443278,
+   "mensajes": 2689,
+   "conversaciones": 1714,
+   "chats_pauta": 396,
+   "gasto_meta": 1005373,
+   "impresiones": 144495,
+   "alcance": 97704,
+   "frecuencia": 1.48,
+   "clics": 3295,
+   "ctr": 2.28,
+   "cpm": 6958,
+   "costo_por_chat": 2539,
+   "gasto_por_venta": 10928,
+   "fact_por_gs_pauta": 40.6,
+   "chats_a_ventas_pct": 23.2,
+   "pedidos_dia": [
+    16,
+    30,
+    25,
+    21
+   ],
+   "facturacion_dia": [
+    8698500,
+    9314600,
+    13328000,
+    9440500
+   ],
+   "mensajes_dia": [
+    761,
+    778,
+    574,
+    576
+   ]
+  },
+  "D": {
+   "fechas": "2024-09-30/2024-10-03",
+   "pedidos": 182,
+   "facturacion": 79539800,
+   "entregadas": 154,
+   "monto_entregadas": 67745800,
+   "anuladas": 6,
+   "unidades": 227,
+   "ticket": 437032,
+   "mensajes": 8380,
+   "conversaciones": 4566,
+   "chats_pauta": 1570,
+   "gasto_meta": 2580927,
+   "impresiones": 314718,
+   "alcance": 157435,
+   "frecuencia": 2.0,
+   "clics": 13212,
+   "ctr": 4.2,
+   "cpm": 8201,
+   "costo_por_chat": 1644,
+   "gasto_por_venta": 14181,
+   "fact_por_gs_pauta": 30.8,
+   "chats_a_ventas_pct": 11.6,
+   "pedidos_dia": [
+    23,
+    53,
+    64,
+    42
+   ],
+   "facturacion_dia": [
+    9832500,
+    19329800,
+    34065000,
+    16312500
+   ],
+   "mensajes_dia": [
+    1702,
+    2395,
+    2266,
+    2017
+   ]
+  }
+ },
+ "top_productos_A": [
+  {
+   "producto": "Power Fit SMART",
+   "monto": 4050000,
+   "unidades": 3,
+   "chats": 32,
+   "stock": "0 registrado"
+  },
+  {
+   "producto": "Sistema Vibratorio GymForm Leg Action",
+   "monto": 2670000,
+   "unidades": 3,
+   "chats": 80
+  },
+  {
+   "producto": "Ab Glider",
+   "monto": 1980000,
+   "unidades": 2,
+   "chats": 29
+  },
+  {
+   "producto": "Amplificador de Sonido New Style",
+   "monto": 1650000,
+   "unidades": 3,
+   "chats": 23
+  },
+  {
+   "producto": "Ab Generator",
+   "monto": 1580000,
+   "unidades": 2,
+   "chats": 10
+  },
+  {
+   "producto": "Velform Cross Compression Shaper",
+   "monto": 1196000,
+   "unidades": 4,
+   "chats": 36
+  },
+  {
+   "producto": "Cubre Colchón Sognare",
+   "monto": 1180000,
+   "unidades": 2,
+   "chats": 0
+  },
+  {
+   "producto": "Sankom Bra - Sin Encaje",
+   "monto": 1170000,
+   "unidades": 6,
+   "chats": 12,
+   "stock": "XL/XXL beige -5"
+  },
+  {
+   "producto": "BIKE AIR 100 BA",
+   "monto": 990000,
+   "unidades": 1,
+   "chats": 1
+  },
+  {
+   "producto": "Maxi Climber",
+   "monto": 890000,
+   "unidades": 1,
+   "chats": 4
+  }
+ ],
+ "top_chats_A": [
+  {
+   "producto": "STONELINE SET",
+   "chats": 102,
+   "unidades": 1
+  },
+  {
+   "producto": "Sistema Vibratorio GymForm Leg Action",
+   "chats": 80,
+   "unidades": 3
+  },
+  {
+   "producto": "Tornado - By Brava Cucina",
+   "chats": 54,
+   "unidades": 1
+  },
+  {
+   "producto": "Axon Hearing Aid",
+   "chats": 41,
+   "unidades": 1
+  },
+  {
+   "producto": "Placas de Yeso - Plaquia",
+   "chats": 41,
+   "unidades": 0,
+   "stock": "Jade/Onice 0"
+  },
+  {
+   "producto": "Velform Cross Compression Shaper",
+   "chats": 36,
+   "unidades": 4
+  },
+  {
+   "producto": "Sankom Patent Socks",
+   "chats": 33,
+   "unidades": 0
+  },
+  {
+   "producto": "Power Fit SMART",
+   "chats": 32,
+   "unidades": 3
+  },
+  {
+   "producto": "Ab Glider",
+   "chats": 29,
+   "unidades": 2
+  },
+  {
+   "producto": "Comfortisse Bra",
+   "chats": 27,
+   "unidades": 1
+  }
+ ],
+ "productos_enfriados": [
+  {
+   "producto": "STONELINE SET",
+   "B_unidades": 3,
+   "A_unidades": 1,
+   "chats_B": 76,
+   "chats_A": 102
+  },
+  {
+   "producto": "Axon Hearing Aid",
+   "B_unidades": 4,
+   "A_unidades": 1
+  },
+  {
+   "producto": "Ejercitador Pasivo Cardio Fit Pro",
+   "B_monto": 2980000,
+   "A_unidades": 0
+  },
+  {
+   "producto": "AB Tomic",
+   "B_unidades": 3,
+   "A_unidades": 0
+  },
+  {
+   "producto": "Sankom Bra - Con Encaje",
+   "B_unidades": 5,
+   "A_unidades": 0,
+   "chats_B": 57,
+   "chats_A": 13
+  }
+ ],
+ "campanas_top_A": [
+  {
+   "nombre": "TEST VIDEO 2 — Productos sin pauta",
+   "gasto": 810149,
+   "conversaciones": 213,
+   "costo_por_conv": 3804
+  },
+  {
+   "nombre": "Post Ivanna Collection",
+   "gasto": 377845,
+   "conversaciones": 98,
+   "costo_por_conv": 3856
+  },
+  {
+   "nombre": "TEST VIDEO — Ranking de creativos LHC",
+   "gasto": 318107,
+   "conversaciones": 157,
+   "costo_por_conv": 2026
+  },
+  {
+   "nombre": "Post Power Fit (¿Querés resultados reales…)",
+   "gasto": 274906,
+   "conversaciones": 42,
+   "costo_por_conv": 6545
+  },
+  {
+   "nombre": "Banco de videos ronda 3 — 10 productos (desde 30/09)",
+   "gasto": 94364,
+   "conversaciones": 37,
+   "costo_por_conv": 2550
+  },
+  {
+   "nombre": "Promociones WhatsApp agosto (7)",
+   "gasto": 678001,
+   "conversaciones": 249,
+   "costo_por_conv": 2723
+  }
+ ],
+ "campanas_desaparecidas": [
+  "Post Sankom Bra (2.719/conv la semana anterior)"
+ ],
+ "conversaciones_estado_semana": {
+  "Bot": 2233,
+  "Sin Resolución": 1425,
+  "En Proceso": 1169,
+  "Pendiente": 1137,
+  "Finalizada": 559
+ },
+ "resoluciones_semana": {
+  "No Compró": 41,
+  "No Compró - Dejó en Visto": 29,
+  "No Compró - Solo consultó": 9,
+  "Agendado": 3,
+  "Compró": 2,
+  "Pedido": 2,
+  "Otros/Spam": 2
+ },
+ "vendedores_semana": {
+  "Cynthia Calia": 32,
+  "Johanna Alarcon": 27,
+  "Silvia Rolon": 7,
+  "web": 4,
+  "Nico Salama": 2,
+  "Ventas Bot": 1
+ },
+ "voc": {
+  "muestra": 12,
+  "silencio_tras_precio": 5,
+  "apertura_sin_producto": 3,
+  "objecion_pago_anticipado_interior": 2,
+  "intencion_abierta": 3,
+  "preguntas": [
+   "¿de dónde son? (ciudad/local/envío) x3",
+   "talle y color (medias, sostén)",
+   "potencia"
+  ],
+  "objeciones_precio": 0,
+  "respuesta_humana_en_muestra": 8
+ },
+ "contenido": {
+  "produccion_semana": "N/D",
+  "snapshot": "24 piezas al 02/10; reel FB Sankom Bra = 69% de interacciones (1173, +51 en 2 semanas); sin piezas nuevas con tracción; campaña Banco de videos ronda 3 sugiere 10 videos nuevos en test"
+ },
+ "mes": {
+  "septiembre_2026": {
+   "pedidos": 417,
+   "facturacion": 250180300,
+   "entregadas": 325,
+   "anuladas": 19,
+   "vs_sep_2025_pedidos_pct": -31.1,
+   "vs_sep_2025_fact_pct": -17.4,
+   "vs_ago_2026_pedidos_pct": -22.8,
+   "proyeccion_w39": {
+    "pedidos": 427,
+    "facturacion": 261000000
+   }
+  },
+  "octubre_2026_al_02": {
+   "pedidos": 30,
+   "facturacion": 12926500,
+   "dias": 1.5
+  },
+  "ref_oct_2025": {
+   "pedidos": 379,
+   "facturacion": 213146020
+  },
+  "proyeccion_octubre_base": {
+   "pedidos": 431,
+   "facturacion": 259000000
+  },
+  "meta": null
+ },
+ "senales": [
+  "Mejora por conversión, no por tráfico: -266 chats, +8 ventas",
+  "Ventas sin pauta: Sankom s/enc 6u/12 chats, Cubre Colchón 2u/0 chats, Ab Generator 2u/10 chats",
+  "Producto con más chats (STONELINE 102) vende 1; Power Fit lidera facturación con 32 chats",
+  "'Dejó en visto' = 58% de resoluciones (29/50): el equipo mide el silencio post-precio",
+  "Viernes arranca con 857 mensajes y ~221 chats antes del mediodía (coincide con Banco de videos ronda 3)",
+  "Tiempo de respuesta 13,6 -> 8,1 min (martes 1,8 min)"
+ ],
+ "anomalias": [
+  "🔴 stock cero con demanda 3ª semana: Plaquia Jade/Onice (41 chats), Sankom s/enc XL/XXL (-5); Power Fit vende con stock registrado 0",
+  "🟡 estados: Pendiente 259->1137, Finalizada 2477->559",
+  "🟡 jueves 01/10: 20 pedidos, 5 entregados, 3 anulados; gasto Meta irregular (0,48M jue / 0,96M vie am)",
+  "🟢 martes 29/09: 14 pedidos con gasto mínimo y respuesta 1,8 min",
+  "🟢 02/10/2024: 64 pedidos / Gs 34M en un día"
+ ],
+ "aprendizajes": [
+  "Menos pauta, más ventas: la eficiencia vino de la conversión (+1,9 pp) y de la velocidad de respuesta, no del volumen de chats",
+  "Demanda no es cierre: el producto con más chats (STONELINE) vendió 1; leer chats y ventas juntos antes de escalar",
+  "El interior necesita cobro al recibir: el pago anticipado frena ventas ya decididas",
+  "Nombrar el problema ayuda a medirlo: 'dejó en visto' pasó a ser la resolución más usada (29 de 50)",
+  "Los tests de video rinden si se dejan madurar: 'Ranking de creativos' bajó 45% su costo por chat en una semana"
+ ],
+ "decisiones": [
+  {
+   "tipo": "URGENTE",
+   "que": "Destrabar STONELINE: stock, precio con cuotas, guion de cierre (102 chats, 1 venta)",
+   "plazo": "2026-10-02"
+  },
+  {
+   "tipo": "URGENTE",
+   "que": "Reponer o retirar de la pauta Plaquia Jade/Onice y Sankom XL/XXL; corregir inventario Power Fit",
+   "plazo": "2026-10-05"
+  },
+  {
+   "tipo": "IMPORTANTE",
+   "que": "Piloto de pago contra entrega en el interior (CDE, Encarnación)",
+   "plazo": "semana 2026-10-05"
+  },
+  {
+   "tipo": "IMPORTANTE",
+   "que": "Validar cambio de estados de conversación (1137 pendientes)",
+   "plazo": "2026-10-07"
+  },
+  {
+   "tipo": "EXPERIMENTO",
+   "que": "Mover Gs 150 mil/día de Power Fit e Ivanna a Ranking de creativos y Banco de videos ronda 3"
+  },
+  {
+   "tipo": "PENDIENTE",
+   "que": "Meta de octubre, conteo de contenido, inventario Power Fit, precio promo correcto en el bot"
+  }
+ ],
+ "seguimiento_decisiones_w39": {
+  "Pausar pauta Power Fit SMART": "no ejecutada: campaña activa (Gs 274.906, Gs 6.545/chat); el producto vendió 3 con stock registrado 0",
+  "Reponer Sankom XL/XXL": "no: sigue en -5; la campaña Sankom Bra dejó de aparecer",
+  "Reactivar Backlounge": "parcial: volvió a recibir chats (14), 0 ventas",
+  "Seguimiento 24h tras precio": "señales positivas: respuesta -41%, 50 resoluciones (x2), 'dejó en visto' registrado",
+  "Campañas propias Amplificador/Cardio Fit": "no observadas; Cardio Fit pasó de Gs 2,98M a 0"
+ },
+ "fuentes": {
+  "NAS": "ok",
+  "Meta": "ok",
+  "IG_organico": "no vinculado",
+  "goals": "no definido"
+ }
+}
