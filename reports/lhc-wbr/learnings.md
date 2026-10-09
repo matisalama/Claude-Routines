@@ -15,3 +15,10 @@ _(la rutina agrega 3 a 5 líneas cada viernes)_
 - El interior necesita cobro al recibir: el pago anticipado frena ventas ya decididas.
 - Nombrar el problema ayuda a medirlo: 'dejó en visto' pasó a ser la resolución más usada (29 de 50).
 - Los tests de video rinden si se dejan madurar: 'Ranking de creativos' bajó 45% su costo por chat en una semana.
+
+## 2026-W41 (corte 09/10/2026 11:51)
+- Los tests de video escalan: +55% de chats a menor costo (Gs 2.888) y +65% de ventas en una semana.
+- El volumen rompe la atención: respuesta 8 -> 21 min y chats sin resolución +55%; crecer sin capacidad convierte igual o peor.
+- STONELINE es precio: primera objeción explícita registrada; en tres semanas, 300 chats y 4 ventas.
+- Volumen no es facturación: pedidos +65% y facturación +40% porque el mix se llenó de productos chicos.
+- Los combos convierten: la promo dúo del Sankom llevó 109 chats a 8 ventas.

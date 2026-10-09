@@ -1,0 +1,489 @@
+{
+ "semana": "2026-W41",
+ "generado": "2026-10-09T11:51:00-03:00",
+ "corte": "2026-10-09 11:51 America/Asuncion",
+ "periodo": {
+  "inicio": "2026-10-05",
+  "fin": "2026-10-09",
+  "bloque_comparable": "lunes-jueves",
+  "viernes_parcial": {
+   "hasta": "11:51",
+   "pedidos": 7,
+   "facturacion": 3841000,
+   "mensajes": 339,
+   "chats_pauta": 82,
+   "gasto_meta": 165538
+  }
+ },
+ "definiciones": "ventas=pedidos generados; facturacion=monto_pedidos; unidades=cantidades sin anuladas; ticket=facturacion/pedidos; mensajes=recibidos WhatsApp; conversaciones=atendidas por dia; chats_pauta=chats CTWA (NAS); gasto=Meta cuenta LHC; tiempo_respuesta=segundos promedio hasta 24h",
+ "periodos": {
+  "A": {
+   "fechas": "2026-10-05/2026-10-08",
+   "pedidos": 104,
+   "facturacion": 40029200,
+   "entregadas": 59,
+   "monto_entregadas": 28297200,
+   "anuladas": 2,
+   "unidades": 119,
+   "ticket": 384896,
+   "mensajes": 5695,
+   "conversaciones": 3882,
+   "chats_pauta": 1595,
+   "gasto_meta": 4606844,
+   "impresiones": 324722,
+   "alcance": 148926,
+   "frecuencia": 2.18,
+   "clics": 12374,
+   "ctr": 3.81,
+   "cpm": 14187,
+   "costo_por_chat": 2888,
+   "gasto_por_venta": 44297,
+   "fact_por_gs_pauta": 8.7,
+   "chats_a_ventas_pct": 6.5,
+   "tiempo_respuesta_seg_prom": 1256,
+   "pedidos_dia": [
+    34,
+    24,
+    29,
+    17
+   ],
+   "facturacion_dia": [
+    11706000,
+    12560200,
+    10538000,
+    5225000
+   ],
+   "mensajes_dia": [
+    1826,
+    1202,
+    1530,
+    1137
+   ],
+   "gasto_dia": [
+    1443180,
+    882277,
+    1359190,
+    922197
+   ],
+   "tiempo_respuesta_seg_dia": [
+    819,
+    1563,
+    1235,
+    1409
+   ]
+  },
+  "B": {
+   "fechas": "2026-09-28/2026-10-01",
+   "pedidos": 63,
+   "facturacion": 28663500,
+   "entregadas": 36,
+   "monto_entregadas": 15402000,
+   "anuladas": 3,
+   "unidades": 74,
+   "ticket": 454976,
+   "mensajes": 3540,
+   "conversaciones": 2073,
+   "chats_pauta": 1030,
+   "gasto_meta": 3386900,
+   "impresiones": 221453,
+   "alcance": 116663,
+   "frecuencia": 1.9,
+   "clics": 7296,
+   "ctr": 3.29,
+   "cpm": 15294,
+   "costo_por_chat": 3288,
+   "gasto_por_venta": 53760,
+   "fact_por_gs_pauta": 8.5,
+   "chats_a_ventas_pct": 6.1,
+   "tiempo_respuesta_seg_prom": 484
+  },
+  "C": {
+   "fechas": "2025-10-06/2025-10-09",
+   "pedidos": 63,
+   "facturacion": 34883550,
+   "entregadas": 60,
+   "monto_entregadas": 34045550,
+   "anuladas": 3,
+   "unidades": 75,
+   "ticket": 553707,
+   "mensajes": 2245,
+   "conversaciones": 1164,
+   "chats_pauta": 277,
+   "gasto_meta": 692327,
+   "impresiones": 90542,
+   "alcance": 60603,
+   "frecuencia": 1.49,
+   "clics": 2110,
+   "ctr": 2.33,
+   "cpm": 7646,
+   "costo_por_chat": 2499,
+   "gasto_por_venta": 10989,
+   "fact_por_gs_pauta": 50.4,
+   "chats_a_ventas_pct": 22.7,
+   "pedidos_dia": [
+    19,
+    15,
+    16,
+    13
+   ],
+   "facturacion_dia": [
+    11688250,
+    5529000,
+    10292500,
+    7373800
+   ],
+   "mensajes_dia": [
+    621,
+    474,
+    677,
+    473
+   ]
+  },
+  "D": {
+   "fechas": "2024-10-07/2024-10-10",
+   "pedidos": 168,
+   "facturacion": 85885000,
+   "entregadas": 142,
+   "monto_entregadas": 68872700,
+   "anuladas": 1,
+   "unidades": 194,
+   "ticket": 511220,
+   "mensajes": 9463,
+   "conversaciones": 4840,
+   "chats_pauta": 1571,
+   "gasto_meta": 4332141,
+   "impresiones": 421457,
+   "alcance": 196125,
+   "frecuencia": 2.15,
+   "clics": 17707,
+   "ctr": 4.2,
+   "cpm": 10279,
+   "costo_por_chat": 2758,
+   "gasto_por_venta": 25786,
+   "fact_por_gs_pauta": 19.8,
+   "chats_a_ventas_pct": 10.7,
+   "pedidos_dia": [
+    50,
+    39,
+    35,
+    44
+   ],
+   "facturacion_dia": [
+    28194000,
+    18501800,
+    15979300,
+    23209900
+   ],
+   "mensajes_dia": [
+    2365,
+    2269,
+    2169,
+    2660
+   ]
+  }
+ },
+ "top_productos_A": [
+  {
+   "producto": "Stand Up Seat",
+   "monto": 4969000,
+   "unidades": 1,
+   "chats": 0
+  },
+  {
+   "producto": "Power Fit SMART",
+   "monto": 4050000,
+   "unidades": 3,
+   "chats": 0,
+   "stock": "no verificado"
+  },
+  {
+   "producto": "Sistema Vibratorio GymForm Leg Action",
+   "monto": 2670000,
+   "unidades": 3,
+   "chats": 87
+  },
+  {
+   "producto": "Iwalk Pro",
+   "monto": 2290000,
+   "unidades": 1,
+   "chats": 16
+  },
+  {
+   "producto": "Sankom Bra - Con Encaje",
+   "monto": 1660000,
+   "unidades": 8,
+   "chats": 109
+  },
+  {
+   "producto": "Solo Ryder",
+   "monto": 1560000,
+   "unidades": 1,
+   "chats": 6
+  },
+  {
+   "producto": "STONELINE SET",
+   "monto": 1386000,
+   "unidades": 2,
+   "chats": 123
+  },
+  {
+   "producto": "Axon Hearing Aid",
+   "monto": 1347000,
+   "unidades": 3,
+   "chats": 58
+  },
+  {
+   "producto": "Squat Perfect",
+   "monto": 1170000,
+   "unidades": 3,
+   "chats": 12
+  },
+  {
+   "producto": "Sankom Bra - Sin Encaje",
+   "monto": 1000000,
+   "unidades": 5,
+   "chats": 40,
+   "stock": "XL/XXL beige -5"
+  }
+ ],
+ "top_chats_A": [
+  {
+   "producto": "STONELINE SET",
+   "chats": 123,
+   "unidades": 2
+  },
+  {
+   "producto": "Sankom Bra - Con Encaje",
+   "chats": 109,
+   "unidades": 8
+  },
+  {
+   "producto": "Sistema Vibratorio GymForm Leg Action",
+   "chats": 87,
+   "unidades": 3
+  },
+  {
+   "producto": "Axon Hearing Aid",
+   "chats": 58,
+   "unidades": 3
+  },
+  {
+   "producto": "Sombrilla reversible",
+   "chats": 48,
+   "unidades": 9
+  },
+  {
+   "producto": "Velform Cross Compression Shaper",
+   "chats": 46,
+   "unidades": 3
+  },
+  {
+   "producto": "Tornado - By Brava Cucina",
+   "chats": 44,
+   "unidades": 0
+  },
+  {
+   "producto": "Royal Posture",
+   "chats": 40,
+   "unidades": 3
+  },
+  {
+   "producto": "Sankom Bra - Sin Encaje",
+   "chats": 40,
+   "unidades": 5
+  },
+  {
+   "producto": "Cerafit Gold",
+   "chats": 36,
+   "unidades": 0
+  },
+  {
+   "producto": "Placas de Yeso - Plaquia",
+   "chats": 31,
+   "unidades": 0
+  }
+ ],
+ "campanas_top_A": [
+  {
+   "nombre": "Banco de videos ronda 3 — 10 productos",
+   "gasto": 744481,
+   "conversaciones": 179,
+   "costo_por_conv": 4159
+  },
+  {
+   "nombre": "Prueba 50 videos · productos poco pautados (nueva)",
+   "gasto": 586734,
+   "conversaciones": 245,
+   "costo_por_conv": 2395
+  },
+  {
+   "nombre": "TEST VIDEO 2 — Productos sin pauta",
+   "gasto": 495687,
+   "conversaciones": 171,
+   "costo_por_conv": 2899
+  },
+  {
+   "nombre": "Infomerciales Horizontales — Prueba Octubre (nueva)",
+   "gasto": 404350,
+   "conversaciones": 102,
+   "costo_por_conv": 3964
+  },
+  {
+   "nombre": "Post Sankom Bra (volvió)",
+   "gasto": 356983,
+   "conversaciones": 158,
+   "costo_por_conv": 2259
+  },
+  {
+   "nombre": "Post Ivanna Collection",
+   "gasto": 347386,
+   "conversaciones": 84,
+   "costo_por_conv": 4136
+  },
+  {
+   "nombre": "TEST VIDEO — Ranking de creativos LHC",
+   "gasto": 338869,
+   "conversaciones": 201,
+   "costo_por_conv": 1686
+  },
+  {
+   "nombre": "Promociones WhatsApp agosto (5)",
+   "gasto": 559928,
+   "conversaciones": 210,
+   "costo_por_conv": 2666
+  }
+ ],
+ "campanas_desaparecidas": [
+  "Post Power Fit (6.545/conv)"
+ ],
+ "conversaciones_estado_semana": {
+  "Bot": 2923,
+  "Sin Resolución": 2203,
+  "En Proceso": 1816,
+  "Finalizada": 1269,
+  "Pendiente": 456
+ },
+ "resoluciones_semana": {
+  "Pedido": 5,
+  "Agendado": 4,
+  "No Compró": 10,
+  "No Compró - Dejó en Visto": 2,
+  "No Compró - Solo consultó": 2,
+  "No Compró - Precio muy elevado": 1,
+  "No Compró - Ya no le interesa": 1
+ },
+ "vendedores_semana": {
+  "Cynthia Calia": 63,
+  "Johanna Alarcon": 25,
+  "Silvia Rolon": 19,
+  "web": 3,
+  "Matias Salama": 1
+ },
+ "voc": {
+  "muestra": 12,
+  "silencio_tras_precio": 6,
+  "apertura_sin_producto": 4,
+  "objecion_precio_explicita": 2,
+  "objecion_tamano": 1,
+  "presupuesto_grande_abierto": "Plaquia 64 m2 = 45 cajas (~Gs 6,8M)",
+  "seguimiento_enviado": 5,
+  "intencion_abierta": 2,
+  "horario_chats": "20:58-23:44"
+ },
+ "contenido": {
+  "produccion_semana": "N/D",
+  "nota": "no se refrescó la foto orgánica; pauta indica ≥50 videos nuevos en test"
+ },
+ "mes": {
+  "octubre_2026_al_08": {
+   "pedidos": 215,
+   "facturacion": 79319500,
+   "dias": 8,
+   "por_dia_pedidos": 26.9,
+   "por_dia_fact": 9915000
+  },
+  "proyeccion_base": {
+   "pedidos": 833,
+   "facturacion": 307000000
+  },
+  "proyeccion_conservadora": {
+   "pedidos": 535,
+   "facturacion": 270000000
+  },
+  "ref_oct_2025": {
+   "pedidos": 379,
+   "facturacion": 213146020
+  },
+  "ref_sep_2026": {
+   "pedidos": 417,
+   "facturacion": 250281300
+  },
+  "meta": null
+ },
+ "senales": [
+  "Volumen ≠ facturación: pedidos +65%, facturación +40%, ticket -15%",
+  "Volumen de chats de 2024 con el mismo gasto, pero conversión 6,5% vs 10,7%",
+  "Velocidad rota con la escala: 8 -> 21 min; sin resolución +55%",
+  "Chats de la noche (21-23h) son el cuello; seguimiento a 5 min no a 24h",
+  "Cross-sell existe (es chico -> George Foreman; es caro -> cuotas) pero llega tarde"
+ ],
+ "anomalias": [
+  "🔴 tiempo de respuesta x2,6 y 2.203 sin resolución",
+  "🔴 Plaquia 4ª semana 0 ventas; Sankom XL/XXL 4ª semana -5",
+  "🟡 ticket Gs 385 mil (mínimo del registro); resoluciones 50 -> 19",
+  "🟡 jueves 08/10: 17 pedidos, 1 entregado",
+  "🟢 lunes 05/10 récord del trimestre; Ranking creativos Gs 1.686/chat"
+ ],
+ "aprendizajes": [
+  "Los tests de video escalan: +55% de chats a menor costo (Gs 2.888) y +65% de ventas en una semana",
+  "El volumen rompe la atención: respuesta 8 -> 21 min y chats sin resolución +55%; crecer sin capacidad convierte igual o peor",
+  "STONELINE es precio: primera objeción explícita registrada; en tres semanas, 300 chats y 4 ventas",
+  "Volumen no es facturación: pedidos +65% y facturación +40% porque el mix se llenó de productos chicos",
+  "Los combos convierten: la promo dúo del Sankom llevó 109 chats a 8 ventas"
+ ],
+ "decisiones": [
+  {
+   "tipo": "URGENTE",
+   "que": "Capacidad de atención en el pico nocturno: turno o derivación bot->humano a 10 min; seguimiento a 24h",
+   "plazo": "2026-10-12"
+  },
+  {
+   "tipo": "URGENTE",
+   "que": "STONELINE con cuotas en el primer mensaje o pausar pauta si conversión <5%",
+   "plazo": "2026-10-09"
+  },
+  {
+   "tipo": "IMPORTANTE",
+   "que": "Plaquia: cerrar presupuesto 45 cajas; verificar stock; apagar pauta si no hay",
+   "plazo": "2026-10-12"
+  },
+  {
+   "tipo": "IMPORTANTE",
+   "que": "Combos 'llevá 2' en Velform, GymForm, Royal Posture para recuperar ticket",
+   "plazo": "semana 2026-10-12"
+  },
+  {
+   "tipo": "EXPERIMENTO",
+   "que": "Mover Gs 200 mil/día de Banco ronda 3 e Ivanna a Ranking de creativos y Prueba 50 videos"
+  },
+  {
+   "tipo": "PENDIENTE",
+   "que": "Meta de octubre, resoluciones, stock Plaquia/Power Fit/Sankom, conteo de contenido"
+  }
+ ],
+ "seguimiento_decisiones_w40": {
+  "STONELINE": "no: 123 chats / 2 ventas",
+  "Plaquia/Sankom reponer": "no: Sankom XL/XXL -5; Plaquia 0 ventas (stock no verificado)",
+  "Contra entrega interior": "sin evidencia",
+  "Validar estados": "normalizado: Pendiente 1137->456, Finalizada 559->1269",
+  "Mover presupuesto": "sí: Power Fit post desapareció; Ranking creativos 1.686/chat",
+  "Meta octubre": "no"
+ },
+ "fuentes": {
+  "NAS": "ok",
+  "Meta": "ok",
+  "IG_organico": "no vinculado",
+  "goals": "no definido",
+  "stock": "solo primera página"
+ }
+}
