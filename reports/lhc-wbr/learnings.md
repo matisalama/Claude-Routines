@@ -22,3 +22,10 @@ _(la rutina agrega 3 a 5 líneas cada viernes)_
 - STONELINE es precio: primera objeción explícita registrada; en tres semanas, 300 chats y 4 ventas.
 - Volumen no es facturación: pedidos +65% y facturación +40% porque el mix se llenó de productos chicos.
 - Los combos convierten: la promo dúo del Sankom llevó 109 chats a 8 ventas.
+
+## 2026-W42 (corte 16/10/2026 11:51)
+- Menos pauta no es proporcionalmente menos ventas: gasto -54%, pedidos -26%; los chats marginales eran los más caros y los que menos cerraban.
+- La capacidad de atención tiene un número: ≈ Gs 500 mil de pauta o 900 mensajes/día; por encima la respuesta pasa de 7 a 13 min.
+- Power Fit SMART es el héroe de octubre tres años seguidos y vende sin chats de pauta.
+- STONELINE no pasó el umbral del 5% ni con cuotas en el primer mensaje: 4 semanas, 437 chats, 8 ventas.
+- Los videos ganadores reciclados rinden más que los nuevos: Gs 2.629 vs 3.906 por chat.
