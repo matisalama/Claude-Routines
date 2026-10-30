@@ -29,3 +29,17 @@ _(la rutina agrega 3 a 5 líneas cada viernes)_
 - Power Fit SMART es el héroe de octubre tres años seguidos y vende sin chats de pauta.
 - STONELINE no pasó el umbral del 5% ni con cuotas en el primer mensaje: 4 semanas, 437 chats, 8 ventas.
 - Los videos ganadores reciclados rinden más que los nuevos: Gs 2.629 vs 3.906 por chat.
+
+## 2026-W43 (corte 23/10/2026, generado 30/10)
+- El ticket manda: pedidos -10% y facturación -41%; perder Power Fit y sumar Tornado a Gs 97 mil movió más que 800 chats.
+- La venta web existe: 32 unidades en 4 días sin chat con Gs 400 mil; medirla por margen y entrega.
+- Pausar lo barato cuesta: Ranking de creativos (Gs 1.621) se pausó y el costo por chat subió 21%.
+- La segunda respuesta es el cuello: el bot responde en 30 s, la persona en 8-66 min; ahí se perdió un 'voy a querer'.
+- Reciclados > nuevos, otra vez: Ronda 8 Gs 1.913 vs Ronda 6 Gs 2.815.
+
+## 2026-W44 (corte 30/10/2026 11:51)
+- Los récords se compran: 113 pedidos con Gs 7,3M vs 104 con Gs 4,6M en la semana 41; los pedidos marginales costaron Gs 300 mil cada uno.
+- Hay dos negocios: WhatsApp (Gs 2.900/chat, ticket ≈ Gs 500 mil) y web (Gs 24 mil/unidad, ticket Gs 109 mil); medirlos aparte.
+- La entrega es el techo operativo: ≈ 55 entregas/semana; por encima, 47% entregado.
+- Reciclados ganan tres de tres: Gs 2.007 vs Gs 4.451 por chat.
+- Mucho chat no es demanda: 402 chats y 3 ventas en tres productos; 'precio' y silencio es el patrón del 75% de la muestra.

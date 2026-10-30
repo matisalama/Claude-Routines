@@ -1,0 +1,534 @@
+{
+ "semana": "2026-W43",
+ "generado": "2026-10-30T11:52:00-03:00",
+ "corte": "2026-10-23 (día completo; corrida del 23/10 11:51 no ejecutada: sesión inactiva)",
+ "periodo": {
+  "inicio": "2026-10-19",
+  "fin": "2026-10-23",
+  "bloque_comparable": "lunes-jueves",
+  "viernes_completo": {
+   "pedidos": 17,
+   "facturacion": 5305000,
+   "mensajes": 1144,
+   "chats_pauta": 374,
+   "gasto_meta": 1175324
+  }
+ },
+ "definiciones": "ventas=pedidos generados; facturacion=monto_pedidos; unidades=cantidades sin anuladas; ticket=facturacion/pedidos; mensajes=recibidos WhatsApp; conversaciones=atendidas por dia; chats_pauta=chats CTWA (NAS); gasto=Meta cuenta LHC (incluye campañas web desde 17/10); tiempo_respuesta=segundos promedio hasta 24h ponderado",
+ "periodos": {
+  "A": {
+   "fechas": "2026-10-19/2026-10-22",
+   "pedidos": 69,
+   "facturacion": 20063000,
+   "entregadas": 54,
+   "monto_entregadas": 16205000,
+   "anuladas": 8,
+   "unidades": 90,
+   "ticket": 290768,
+   "mensajes": 2916,
+   "conversaciones": 1069,
+   "chats_pauta": 867,
+   "gasto_meta": 2504623,
+   "impresiones": 172439,
+   "alcance": 93104,
+   "frecuencia": 1.85,
+   "clics": 6812,
+   "ctr": 3.95,
+   "cpm": 14525,
+   "costo_por_chat": 2889,
+   "gasto_por_venta": 36299,
+   "fact_por_gs_pauta": 8.0,
+   "chats_a_ventas_pct": 8.0,
+   "pedidos_dia": [
+    16,
+    23,
+    16,
+    14
+   ],
+   "facturacion_dia": [
+    5515600,
+    6482900,
+    4927300,
+    3137200
+   ],
+   "mensajes_dia": [
+    826,
+    678,
+    596,
+    816
+   ],
+   "conversaciones_dia": [
+    291,
+    209,
+    228,
+    341
+   ],
+   "tiempo_respuesta_seg_prom": 645,
+   "tiempo_respuesta_seg_dia": [
+    561,
+    522,
+    663,
+    809
+   ]
+  },
+  "B": {
+   "fechas": "2026-10-12/2026-10-15",
+   "pedidos": 77,
+   "facturacion": 33954200,
+   "entregadas": 54,
+   "monto_entregadas": 26373600,
+   "anuladas": 2,
+   "unidades": 92,
+   "ticket": 440964,
+   "mensajes": 3557,
+   "conversaciones": 1137,
+   "chats_pauta": 896,
+   "gasto_meta": 2133055,
+   "impresiones": 161233,
+   "alcance": 83071,
+   "frecuencia": 1.94,
+   "clics": 6627,
+   "ctr": 4.11,
+   "cpm": 13230,
+   "costo_por_chat": 2381,
+   "gasto_por_venta": 27702,
+   "fact_por_gs_pauta": 15.9,
+   "chats_a_ventas_pct": 8.6,
+   "tiempo_respuesta_seg_prom": 584,
+   "pedidos_dia": [
+    21,
+    20,
+    18,
+    18
+   ],
+   "facturacion_dia": [
+    8709000,
+    8760600,
+    8686300,
+    7798300
+   ],
+   "mensajes_dia": [
+    794,
+    796,
+    905,
+    1062
+   ],
+   "conversaciones_dia": [
+    250,
+    249,
+    262,
+    376
+   ],
+   "gasto_dia": [
+    396219,
+    407069,
+    478380,
+    851387
+   ],
+   "tiempo_respuesta_seg_dia": [
+    410,
+    645,
+    443,
+    786
+   ],
+   "meta_conversaciones_iniciadas": 849
+  },
+  "C": {
+   "fechas": "2025-10-20/2025-10-23",
+   "pedidos": 66,
+   "facturacion": 33097970,
+   "entregadas": 56,
+   "monto_entregadas": 27975970,
+   "anuladas": 8,
+   "unidades": 72,
+   "ticket": 501484,
+   "mensajes": 2269,
+   "conversaciones": 572,
+   "chats_pauta": 314,
+   "gasto_meta": 1247524,
+   "impresiones": 107168,
+   "alcance": 85228,
+   "frecuencia": null,
+   "clics": 2693,
+   "ctr": 2.51,
+   "cpm": 11641,
+   "costo_por_chat": 3973,
+   "gasto_por_venta": 18902,
+   "fact_por_gs_pauta": 26.5,
+   "chats_a_ventas_pct": 21.0,
+   "pedidos_dia": [
+    16,
+    10,
+    23,
+    17
+   ],
+   "facturacion_dia": [
+    7652750,
+    4157500,
+    13193920,
+    8093800
+   ],
+   "mensajes_dia": [
+    587,
+    404,
+    708,
+    570
+   ],
+   "conversaciones_dia": [
+    158,
+    115,
+    164,
+    135
+   ]
+  },
+  "D": {
+   "fechas": "2024-10-21/2024-10-24",
+   "pedidos": 125,
+   "facturacion": 66437400,
+   "entregadas": 113,
+   "monto_entregadas": 59625400,
+   "anuladas": 0,
+   "unidades": 157,
+   "ticket": 531499,
+   "mensajes": 6331,
+   "conversaciones": 1687,
+   "chats_pauta": 1151,
+   "gasto_meta": 3154691,
+   "impresiones": 270053,
+   "alcance": 193786,
+   "frecuencia": null,
+   "clics": 10539,
+   "ctr": 3.9,
+   "cpm": 11682,
+   "costo_por_chat": 2741,
+   "gasto_por_venta": 25238,
+   "fact_por_gs_pauta": 21.1,
+   "chats_a_ventas_pct": 10.9,
+   "pedidos_dia": [
+    35,
+    30,
+    30,
+    30
+   ],
+   "facturacion_dia": [
+    17848800,
+    15623300,
+    19369000,
+    13596300
+   ],
+   "mensajes_dia": [
+    1473,
+    1608,
+    1623,
+    1627
+   ],
+   "conversaciones_dia": [
+    386,
+    421,
+    435,
+    445
+   ]
+  }
+ },
+ "gasto_whatsapp_estimado": {
+  "gasto": 2104262,
+  "nota": "gasto total menos campaña Tornado web (400.361)",
+  "costo_por_chat": 2427
+ },
+ "top_productos_A": [
+  {
+   "producto": "Limpia Facil Tornado Ultra",
+   "monto": 3118500,
+   "unidades": 32,
+   "chats": 6,
+   "canal": "web"
+  },
+  {
+   "producto": "Ejercitador Pasivo Cardio Fit Pro",
+   "monto": 1490000,
+   "unidades": 1,
+   "chats": 24
+  },
+  {
+   "producto": "Power Fit SMART",
+   "monto": 1350000,
+   "unidades": 1,
+   "chats": 6,
+   "stock": 309
+  },
+  {
+   "producto": "Royal Posture",
+   "monto": 1160000,
+   "unidades": 4,
+   "chats": 26
+  },
+  {
+   "producto": "Bicicleta Horizontal 180BH",
+   "monto": 1032000,
+   "unidades": 1,
+   "chats": 0
+  },
+  {
+   "producto": "Sankom Bra - Con Encaje",
+   "monto": 1000000,
+   "unidades": 5,
+   "chats": 81
+  },
+  {
+   "producto": "Chew Brush",
+   "monto": 973000,
+   "unidades": 10,
+   "chats": 23
+  },
+  {
+   "producto": "Velform Cross Compression Shaper",
+   "monto": 897000,
+   "unidades": 3,
+   "chats": 69
+  },
+  {
+   "producto": "Tornado - By Brava Cucina",
+   "monto": 780000,
+   "unidades": 2,
+   "chats": 55
+  },
+  {
+   "producto": "STONELINE SET",
+   "monto": 693000,
+   "unidades": 1,
+   "chats": 33,
+   "stock": 282,
+   "nota": "pauta pausada tras el lunes"
+  }
+ ],
+ "top_chats_A": [
+  {
+   "producto": "Sankom Bra - Con Encaje",
+   "chats": 81,
+   "unidades": 5
+  },
+  {
+   "producto": "Velform Cross Compression Shaper",
+   "chats": 69,
+   "unidades": 3
+  },
+  {
+   "producto": "Sankom Bra - Sin Encaje",
+   "chats": 60,
+   "unidades": 2
+  },
+  {
+   "producto": "Tornado - By Brava Cucina",
+   "chats": 55,
+   "unidades": 2
+  },
+  {
+   "producto": "Axon Hearing Aid",
+   "chats": 52,
+   "unidades": 1
+  },
+  {
+   "producto": "Redu Shaper Ultra - Mujer",
+   "chats": 34,
+   "unidades": 0
+  },
+  {
+   "producto": "STONELINE SET",
+   "chats": 33,
+   "unidades": 1
+  },
+  {
+   "producto": "Amplificador de Sonido New Style",
+   "chats": 30,
+   "unidades": 0
+  },
+  {
+   "producto": "Walk Buddy",
+   "chats": 28,
+   "unidades": 1
+  },
+  {
+   "producto": "Royal Posture",
+   "chats": 26,
+   "unidades": 4
+  },
+  {
+   "producto": "Placas de Yeso - Plaquia",
+   "chats": 1,
+   "unidades": 0,
+   "nota": "pauta apagada"
+  }
+ ],
+ "campanas_top_A": [
+  {
+   "nombre": "Ronda 6 · 50 creativos nuevos (pausada)",
+   "gasto": 478564,
+   "conversaciones": 170,
+   "costo_por_conv": 2815
+  },
+  {
+   "nombre": "Tornado Ultra REGALO · compra web (nueva 17/10)",
+   "gasto": 400361,
+   "compras_pixel": 15,
+   "costo_por_compra": 26691
+  },
+  {
+   "nombre": "Ganadores semana 1 Oct",
+   "gasto": 360642,
+   "conversaciones": 135,
+   "costo_por_conv": 2671
+  },
+  {
+   "nombre": "Post Sankom Bra",
+   "gasto": 286829,
+   "conversaciones": 139,
+   "costo_por_conv": 2064
+  },
+  {
+   "nombre": "Promos WhatsApp agosto (2, pausadas)",
+   "gasto": 249774,
+   "conversaciones": 105,
+   "costo_por_conv": 2379
+  },
+  {
+   "nombre": "TEST VIDEO — Ranking de creativos (pausada)",
+   "gasto": 129679,
+   "conversaciones": 80,
+   "costo_por_conv": 1621
+  },
+  {
+   "nombre": "Ronda 8 · 44 creativos reciclados (nueva 22/10)",
+   "gasto": 107120,
+   "conversaciones": 56,
+   "costo_por_conv": 1913
+  },
+  {
+   "nombre": "Power Fit SMART reactivada",
+   "gasto": 77855,
+   "conversaciones": 6,
+   "costo_por_conv": 12976
+  }
+ ],
+ "conversaciones_estado_semana": {
+  "Bot": 2107,
+  "En Proceso": 1476,
+  "Sin Resolución": 1251,
+  "Finalizada": 258,
+  "Pendiente": 195
+ },
+ "resoluciones_semana": {
+  "No Compró - Dejó en Visto": 5,
+  "Agendado": 1
+ },
+ "vendedores_semana": {
+  "Cynthia Calia": 33,
+  "Afiliados": 26,
+  "Johanna Alarcon": 21,
+  "Silvia Rolon": 6
+ },
+ "voc": {
+  "muestra": 6,
+  "silencio_tras_precio": 4,
+  "comprador_perdido_por_demora": 1,
+  "intencion_abierta": 1,
+  "precio_como_primer_mensaje": 3,
+  "horario_chats": "21:14-21:57",
+  "demora_humana_min": "8-66"
+ },
+ "contenido": {
+  "produccion_semana": "N/D",
+  "nota": "Ronda 8 (44 reciclados) desde 22/10; Rondas 9 y 10 desde 23/10; formato video + compra web (Tornado)"
+ },
+ "mes": {
+  "octubre_2026_al_22": {
+   "pedidos": 457,
+   "facturacion": 173456480,
+   "dias": 22,
+   "por_dia_pedidos": 20.8,
+   "por_dia_fact": 7885000
+  },
+  "proyeccion_base": {
+   "pedidos": 644,
+   "facturacion": 244000000
+  },
+  "proyeccion_alternativa": {
+   "pedidos": 582,
+   "facturacion": 249000000
+  },
+  "ref_oct_2025": {
+   "pedidos": 379,
+   "facturacion": 213146020
+  },
+  "ref_sep_2026": {
+   "pedidos": 417,
+   "facturacion": 250281300
+  },
+  "meta": null
+ },
+ "senales": [
+  "Mismos pedidos, -41% facturación: el ticket (Gs 291 mil) explica todo",
+  "Canal web ya es el 2º vendedor: Afiliados 26 pedidos, ticket entregado Gs 124 mil",
+  "Jueves de más pauta = día de menos ventas (Gs 836 mil, 14 pedidos)",
+  "Segunda respuesta humana 8-66 min cuando el bot responde en 30 s",
+  "Finalizada 3651 -> 258: cambio de proceso o de registro"
+ ],
+ "anomalias": [
+  "🔴 ticket Gs 291 mil mínimo; facturación -41% con pedidos -10%",
+  "🔴 Ranking de creativos pausada (Gs 1.621); Power Fit reactivada a Gs 12.976/chat",
+  "🟡 anulaciones 2 -> 8; Finalizada 3651 -> 258; resoluciones 6",
+  "🟡 Plaquia Jade/Onice 0; Sankom XS 0 (XL/XXL beige repuesto 35)",
+  "🟢 canal web 32 Tornado sin chat; entregas 78%; STONELINE y Plaquia apagadas"
+ ],
+ "aprendizajes": [
+  "El ticket manda: pedidos -10% y facturación -41%; perder Power Fit y sumar Tornado a Gs 97 mil movió más que 800 chats",
+  "La venta web existe: 32 unidades en 4 días sin chat con Gs 400 mil; medirla por margen y entrega",
+  "Pausar lo barato cuesta: Ranking de creativos (Gs 1.621) se pausó y el costo por chat subió 21%",
+  "La segunda respuesta es el cuello: el bot responde en 30 s, la persona en 8-66 min; ahí se perdió un 'voy a querer'",
+  "Reciclados > nuevos, otra vez: Ronda 8 Gs 1.913 vs Ronda 6 Gs 2.815"
+ ],
+ "decisiones": [
+  {
+   "tipo": "URGENTE",
+   "que": "Recuperar el ticket: reactivar Ranking de creativos (Gs 150 mil/día) y rehacer Power Fit con los videos que vendieron",
+   "plazo": "2026-10-26"
+  },
+  {
+   "tipo": "URGENTE",
+   "que": "Segunda respuesta humana ≤ 10 min de 21 a 23 h; alerta por 'quiero/precio/envío' tras el bot",
+   "plazo": "2026-10-26"
+  },
+  {
+   "tipo": "IMPORTANTE",
+   "que": "Medir el canal web por margen (costo+regalo+envío+Gs 26.691) antes de escalar",
+   "plazo": "2026-10-28"
+  },
+  {
+   "tipo": "IMPORTANTE",
+   "que": "Explicar Finalizada 3651->258 y 8 anulaciones; resolución obligatoria",
+   "plazo": "2026-10-27"
+  },
+  {
+   "tipo": "EXPERIMENTO",
+   "que": "Ronda 8 reciclados vs Rondas 9 y 10 nuevos: ventas por producto al 30/10"
+  },
+  {
+   "tipo": "PENDIENTE",
+   "que": "Meta octubre, resoluciones, Sankom XS, Plaquia Jade/Onice, fichas Tornado, conteo de contenido"
+  }
+ ],
+ "seguimiento_decisiones_w42": {
+  "Pauta a Gs 700 mil/día en campañas baratas": "no: Gs 530-836 mil/día pero se pausó Ranking de creativos",
+  "STONELINE regla 5%": "sí: pausada tras el lunes",
+  "Plaquia solo Cuarzo o apagar": "sí: pauta apagada (1 chat)",
+  "Una sola regla bot": "sin evidencia en la muestra",
+  "Ganadores vs Ronda 6": "Ronda 6 pausada; Ronda 8 reciclados Gs 1.913",
+  "Meta octubre": "no"
+ },
+ "fuentes": {
+  "NAS": "ok (leído 30/10)",
+  "Meta": "ok",
+  "IG_organico": "no vinculado",
+  "goals": "no definido",
+  "stock": "leído el 30/10, no el 23/10"
+ }
+}
